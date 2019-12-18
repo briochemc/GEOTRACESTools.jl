@@ -52,4 +52,8 @@ end
 
 export CruiseTrack, list_of_cruises
 
+# functions for creating dummy variables for testing
+# because programmatic download of GEOTRACES data is forbidden
+include("dummy_data.jl")
+
 end # module
